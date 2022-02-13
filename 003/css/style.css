@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Gilroy';
+    font-size: 18px;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+/* b {font-family: 'GilroyBold';} */
+
+header,
+.header_left,
+.header_centre,
+.header_right {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    /* background-color: #fff0; */
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header_left img {
+    height: 116px;
+}
+
+.header_centre a {
+    margin: 0 50px;
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #fff0;
+    transition: 200ms linear;
+}
+
+.header_centre a:hover {
+    border-bottom: 2px solid #f9b300;
+    transition: 200ms linear;
+}
+
+.header_right div {
+    margin: 0 25px;
+}
+
+.header_right img {
+    width: 32px;
+    height: 32px;
+}
+
+/* .bg_img-position {
+    width: 100%;
+    height: auto;
+    position: relative;
+} */
+
+.bgImg_1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bgImg_2 {
+    position: absolute;
+    top: 1400px;
+    left: 0;
+}
+
+.bgImg_3 {
+    position: absolute;
+    top: 1900px;
+    left: 0;
+}
+
+/* section_1 */
+
+main {
+    padding: 0 112px;
+}
+
+.section_1 {
+    width: 100%;
+    margin-top: 60px;
+    position: relative;
+}
+
+.section_1 h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.section_1 p {
+    margin-bottom: 20px;
+    line-height: 25px;
+    width: 600px;
+}
+
+.section_1 button {
+    width: 300px;
+    height: 60px;
+    margin-top: 60px;
+    background-color: #f9b300;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    transition: 200ms linear;
+}
+
+.section_1 button:hover {
+    background-color: #e2a300;
+    transition: 200ms linear;
+    cursor: pointer;
+}
+
+.section_1-img {
+    width: 580px;
+    position: absolute;
+    top: 0;
+    right: 50px;
+}
+
+.section_1-img img:first-child {
+    position: absolute;
+    height: 500px;
+}
+
+.section_1-img img:last-child {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    height: 330px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "Gilroy";  
+    src: url("../fonts/GilroyReg.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gilroy";  
+    src: url("../fonts/GilroyBold.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Gilroy";  
+    src: url("../fonts/GilroyHeavy.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: 900;
+}
