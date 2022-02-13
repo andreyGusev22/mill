@@ -1,1 +1,9 @@
-asd
+$maxWitdth: 1280;
+
+@mixin  adaptiv-img($pcImgSize, $mobImgSize) {
+    $add_ImgSize: $pcImgSize - $mobImgSize;
+    $add_mobImgSize: $add_ImgSize + $add_ImgSize * 0.7;
+    @media (max-width: 767px) {
+        // font-size: ;
+    }
+}
