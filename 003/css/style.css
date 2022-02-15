@@ -100,8 +100,8 @@ header {
 .header_right img {
     width: calc(32 * (100vw / 1904));
     height: calc(32 * (100vw / 1904));
-    min-width: 25px;
-    min-height: 25px;
+    min-width: 30px;
+    min-height: 30px;
 }
 
 .search {
@@ -445,8 +445,8 @@ main {
         min-height: 25px; */
     }
     .header_right {
-        justify-content: space-around;
-        width: calc(200 * (100vw / 820))
+        justify-content: space-between;
+        width: calc(250 * (100vw / 820))
     }
     .search_active {
         width: calc(500 * (100vw / 820));
