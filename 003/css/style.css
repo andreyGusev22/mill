@@ -265,7 +265,7 @@ main {
     height:  calc(80 * (100vw / 1904));
     margin-top: 60px;
     background-color: #f9b300;
-    border: none;
+    border: 1px solid #fff;
     border-radius: 5px;
     font-size:  calc(30 * (100vw / 1904));
     font-weight: 600;
@@ -498,13 +498,14 @@ main {
         display: none;
     }
     .search_active {
-        width: calc(550 * (100vw / 820));
-        height: calc(100 * (100vw / 820));
-        padding: 0 calc(30 * (100vw / 620));
+        width: calc(480 * (100vw / 820));
+        height: calc(120 * (100vw / 820));
+        padding: 0 calc(40 * (100vw / 620));
     }
     .search_input-active {
         font-size: calc(14px + 6 * (100vw / 620));
         padding-left: 0;
+        margin-right: 15px;
     }
     .section_1 {
         margin-top: calc(100 * (100vw / 620 ));
