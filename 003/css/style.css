@@ -4,15 +4,9 @@
 }
 
 body {
-<<<<<<< Updated upstream
     font-family: 'Gilroy';
     font-size: calc(14px + 11 * (100vw / 1904));
     /* overflow-x: hidden; */
-=======
-  font-family: "Gilroy";
-  font-size: calc(14px + 11 * (100vw / 1904));
-  overflow-x: hidden;
->>>>>>> Stashed changes
 }
 
 ::-webkit-scrollbar-button {
@@ -104,16 +98,10 @@ header {
 }
 
 .header_right img {
-<<<<<<< Updated upstream
     width: calc(32 * (100vw / 1904));
     height: calc(32 * (100vw / 1904));
     min-width: 30px;
     min-height: 30px;
-=======
-  width: calc(32 * (100vw / 1904));
-  height: calc(32 * (100vw / 1904));
-  min-width: 25px;
->>>>>>> Stashed changes
 }
 
 .search {
@@ -142,7 +130,6 @@ header {
 }
 
 .search_active {
-<<<<<<< Updated upstream
     width: calc(1000 * (100vw / 1904));
     height: calc(58 * (100vw / 1904));
     /* height: calc(100 * (100vw / 820)); */
@@ -154,17 +141,6 @@ header {
     box-shadow: 0px 0px 20px rgba(157, 157, 157, 0.25);
     border-radius: 30px;
     animation: active 500ms linear 1 normal running 0s none;
-=======
-  width: calc(1160 * (100vw / 1904));
-  height: calc(58 * (100vw / 1904));
-  padding: 0 30px;
-  display: flex;
-  align-items: center;
-  background: #ffffff;
-  box-shadow: 0px 0px 20px rgba(157, 157, 157, 0.25);
-  border-radius: 30px;
-  animation: active 500ms linear 1 normal running 0s none;
->>>>>>> Stashed changes
 }
 
 @keyframes active{
@@ -177,7 +153,6 @@ header {
 }
 
 .search_input-active {
-<<<<<<< Updated upstream
     position: absolute;
     top: 50%;
     right: 0;
@@ -194,24 +169,6 @@ header {
     transition: 100ms ease-in;
     opacity: 0;
     visibility: hidden;
-=======
-  position: absolute;
-  top: 50%;
-  right: 0;
-  transform: translateY(-50%);
-  border: none;
-  background: none;
-  outline: none;
-  color: #c4c4c4;
-  padding-left: 20px;
-  margin-right: 40px;
-  font-size: calc(14px + 6 * (100vw / 1904));
-  width: calc(1100 * (100vw / 1904));
-  height: calc(58 * (100vw / 1904));
-  transition: 100ms ease-in;
-  opacity: 0;
-  visibility: hidden;
->>>>>>> Stashed changes
 }
 
 .visib {
@@ -220,7 +177,6 @@ header {
   transition: 200ms ease-out 400ms;
 }
 
-<<<<<<< Updated upstream
 .header_menu {
     min-width: 40px;
     min-height: 30px;
@@ -236,15 +192,6 @@ header {
 
 .header_menu p {
     border-bottom: 5px solid #f9b300;
-=======
-@keyframes active {
-  0% {
-    width: 0;
-  }
-  100% {
-    width: 1000px;
-  }
->>>>>>> Stashed changes
 }
 
 .header_menu p:nth-child(2) {
@@ -278,7 +225,6 @@ header {
 /* section_1 */
 
 main {
-<<<<<<< Updated upstream
     width: calc(1600 * (100vw / 1904));
     max-width: 1660px;
     margin: auto;
@@ -291,18 +237,6 @@ main {
     /* margin-left: calc(112 * (100vw / 1904));
     margin-right: calc(112 * (100vw / 1904)); */
     position: relative;
-=======
-  width: 100%;
-}
-
-.section_1 {
-  width: 100%;
-  height: auto;
-  margin-top: 100px;
-  margin-left: calc(112 * (100vw / 1904));
-  margin-right: calc(112 * (100vw / 1904));
-  position: relative;
->>>>>>> Stashed changes
 }
 
 .section_1-left {
@@ -320,7 +254,6 @@ main {
   width: calc(660 * (100vw / 1904));
 }
 
-<<<<<<< Updated upstream
 /* @media (max-width: 1210px) {
     .section_1 p {
         width:  calc(640 * (100vw / 1210));
@@ -338,25 +271,6 @@ main {
     font-weight: 600;
     color: #fff;
     transition: 200ms linear;
-=======
-@media (max-width: 1210px) {
-  .section_1 p {
-    width: calc(640 * (100vw / 1210));
-  }
-}
-
-.section_1 button {
-  width: calc(400 * (100vw / 1904));
-  height: calc(80 * (100vw / 1904));
-  margin-top: 60px;
-  background-color: #f9b300;
-  border: none;
-  border-radius: 5px;
-  font-size: calc(30 * (100vw / 1904));
-  font-weight: 600;
-  color: #fff;
-  transition: 200ms linear;
->>>>>>> Stashed changes
 }
 
 .section_1 button:hover {
@@ -366,21 +280,12 @@ main {
 }
 
 .section_1-right {
-<<<<<<< Updated upstream
     width: 45%;
     height: calc(500 * (100vw / 1904));
     max-height: 500px;
     position: absolute;
     bottom: 0px;
     right: calc(-80 * (100vw / 1904));
-=======
-  width: 45%;
-  height: calc(500 * (100vw / 1904));
-  max-height: 500px;
-  position: absolute;
-  bottom: 0px;
-  right: calc(80 * (100vw / 1904));
->>>>>>> Stashed changes
 }
 
 .section_1-img {
@@ -499,7 +404,6 @@ main {
 
 /* section_7 */
 
-<<<<<<< Updated upstream
 /* footer */
 
 
@@ -677,109 +581,6 @@ main {
     }
 }
 
-=======
-* {
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: "Gilroy";
-    font-size: calc(14px + 11 * (100vw / 1170));
-    overflow-x: hidden;
-  }
-  /* ----------------section_7----------------------- */
-  /* .section_7{
-  
-    } */
-  .section_7_1 {
-    background-color: #fff7e1;
-    height: 100vw;
-  }
-  .section_7_1_0 {
-    display: flex;
-    flex-wrap: nowrap;
-    align-items: center;
-    justify-content: flex-start;
-    flex-direction: row;
-    margin-left: 10vw;
-    padding-top: 4vw;
-  }
-  .section_7_1_h1 {
-    margin-right: 7vw;
-  }
-  /* ------------section_7_2--------------- */
-  .section_7_2 {
-    background-color: #f9b300;
-    height: 80vw;
-  }
-  
-  /* ------------section_7_3---------- */
-  .section_7_3 {
-    /* background-image: url(img/sec_7_Vector_izgib.png); */
-    width: 100%;
-    position: relative;
-  }
-  .section_7_3_cofe{
-   width: 450px;
-   margin-left: auto;
-   position: relative;
-   top: -315px;
-  }
-  .sec_7_kisspng-cafe-chocolate{
-      width: 500px;
-      position: absolute;
-      z-index: 2;
-  }
-  .sec_7_kisspng-coffee-espresso{
-      width: 500px;
-      position: absolute;
-      z-index: 1;
-  }
-  .sec_7_Vector_izgib{
-      width: 100%;
-  }
-  /* ----------------------forma----------------------------- */
-  .sec_7_search_input-active {
-      width: 1100px;
-      height: 80px;
-      background: rgb(243, 243, 243);
-      border-radius: 40px;
-      font-size: 33px;
-      padding-left: 50px;
-      border: 1px solid #d6d6d6;
-    }
-    .sec_7_search_input-button {
-            width: 260px;
-      height: 80px;
-      font-size: 27px;
-      border-radius: 40px;
-      color: aliceblue;
-      font-weight: bold;
-      background: rgb(249, 179, 0);
-      border: none;
-    }
-  
-    .sec_7_Rectangle_yellow {
-      color: #e2a300;
-      font-weight: 600;
-    }
-    .sec_7_Rectangle {
-      color: #000;
-      font-size: 21px;
-      line-height: 20, 8px;
-    }
-  /* footer */
-  .sec_7_ol {
-    font-weight: 600;
-  }
-  .sec_7_li {
-    display: inline-block;
-    margin-right: 90px;
-  }
-  
-/* footer -- end */
->>>>>>> Stashed changes
 
 @font-face {
   font-family: "Gilroy";
